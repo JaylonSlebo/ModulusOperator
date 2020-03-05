@@ -16,9 +16,16 @@ public class Main {
 
 
 
+            public static void keepContained(){
 
 
+        int number;
+        Scanner keyboard;
+        keyboard = new Scanner(System.in);
+        System.out.println("Type in any positive number");
+        number = keyboard.nextInt();
 
+        System.out.println("Number contained is: " + ((number%8)+5));
 
 
 
